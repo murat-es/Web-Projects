@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calculator.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+    <body>
+        <center>
+            <p id="header">CALCULATOR</p>
+            <div>
+                <div id="first">
+                    <p id="result">&nbsp;</p>
+                </div>
+                <table>
+                    <tr>
+                        <td id="1" onclick="number(this.id)">1</td>
+                        <td id="2" onclick="number(this.id)">2</td>
+                        <td id="3" onclick="number(this.id)">3</td>
+                        <td id="+" onclick="operation(id)">+</td>
+                    </tr>
+                    <tr>
+                        <td id="4" onclick="number(this.id)">4</td>
+                        <td id="5" onclick="number(this.id)">5</td>
+                        <td id="6" onclick="number(this.id)">6</td>
+                        <td id="-" onclick="operation(id)">-</td>
+                    </tr>
+                    <tr>
+                        <td id="7" onclick="number(this.id)">7</td>
+                        <td id="8" onclick="number(this.id)">8</td>
+                        <td id="9" onclick="number(this.id)">9</td>
+                        <td id="*" onclick="operation(id)">*</td>
+                    </tr>
+                    <tr>
+                        <td id="clear" onclick="clr()">C</td>
+                        <td id="0" onclick="number(this.id)">0</td>
+                        <td id="equal" onclick="equal()">=</td>
+                        <td id="/" onclick="operation(id)">/</td>
+                    </tr>
+                </table>
+            </div>
+            <p id="last">Math is life</p>
+        </center>
+        <script src="calculator.js"></script>
+    </body>
+</html>
