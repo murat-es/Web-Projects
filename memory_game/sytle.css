@@ -1,0 +1,75 @@
+table{
+    margin: auto;
+    border: solid 1px black;
+}
+td{
+    border: solid 1px black;
+    background-color: red;
+    width: 175px;
+    height: 175x;
+    padding: 5px;
+}
+ 
+div{
+    margin: auto;
+    background-color: blue;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 160px;
+    height: 160px;
+}
+div:hover{
+    opacity: 0.5;
+}
+
+img{
+    visibility: hidden;
+} 
+#menu{
+    width: auto;
+    height: auto;
+    background-color: rgb(58, 44, 44);
+    padding: 15px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 80px;
+    border: blue solid 1px;
+    border-radius: 100px;
+    margin-right: -50px;
+}
+#menu{
+    opacity: 1;
+}
+button{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    width: 175px;
+    height: 75px;
+    background-color: red;
+    color: blue;
+}
+button:focus{
+    outline: none;
+}
+#nwGame{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+#nwGame:hover{
+    background-color: blue;
+    color: red;
+}
+#move{
+    display: block;
+    margin-bottom: 30px;
+}  
+#seconds{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 20px;
+}
