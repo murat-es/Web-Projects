@@ -1,0 +1,64 @@
+table,td{
+    border: solid 1px black;
+    background-color: lightcoral;
+    user-select: none; 
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 650px;
+    
+}
+td{
+    text-align: center;
+    font-size: 150px;
+    background-color: rgb(152, 251, 152);
+    width: 200px;
+    height: 200px;
+}
+td:hover{
+    background-color: rgb(43, 175, 43);
+}
+
+div{
+    padding: 15px;
+    float: left;
+    width: 150px;
+    background-color:rgb(158, 75, 120);
+    color: deepskyblue;
+    font-size: 50px;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    text-align: center;
+}
+button{
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-color: deepskyblue;
+    color: rgb(158, 75, 120);
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(147, 226, 252);
+    color: rgb(158, 75, 120);
+}
+button:focus{
+    outline: none;
+}
+
+#turn{
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    float: left;
+    width: 150px;
+    background-color:rgb(158, 75, 120);
+    color: deepskyblue;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
