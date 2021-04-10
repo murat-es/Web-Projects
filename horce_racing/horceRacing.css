@@ -1,0 +1,56 @@
+
+#fan{
+    width: auto;
+    height: 150px;
+    background-image: url("images/sports-fans.jpg");
+    background-repeat: repeat-x;
+    border-bottom: solid 2px black;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+}
+#outer{
+    border:solid 2px black;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#hipodrom{
+    background-color: chartreuse;
+}
+
+.finish{
+    
+    width: 10px;
+    height: 455px;
+    float: right;
+    position: relative;
+    margin-right: 10px;
+}
+#f1{
+    background-color: #000;
+}
+#f2{
+    line-height: 4.6;
+    
+}
+button{
+    width: 20%;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    border: white;
+}
+button:hover{
+    background-color:white;
+    color: red;
+    border: red;
+}
+body{
+    background-color: rgb(17, 226, 233);
+}

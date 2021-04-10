@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="clock.css" type="text/css">
+    </head>
+    <body>
+      <p>STOPWATCH</p>
+      <table id="center"> 
+        <tr>
+            <td id="hours" class="clock">00</td>
+            <td rowspan="2" class="colon">:</td>
+            <td id="minutes" class="clock">00</td>
+            <td rowspan="2" class="colon">:</td>
+            <td id="seconds" class="clock">00</td>
+            <td rowspan="2" class="colon">:</td>
+            <td id="milliseconds" class="clock">00</td>
+          </tr>
+          <tr>
+            <td>hours</td>
+            <td>minutes</td>
+            <td>seconds</td>
+            <td>milliseconds</td>
+          </tr>
+      </table>
+      <center>
+        <button onclick="start()" >START</button>
+        <button onclick="stop()" >STOP</button>
+        <button onclick="reset()">RESET</button>
+      </center>
+      
+      <script src="clock.js"></script>
+    </body>
+</html>

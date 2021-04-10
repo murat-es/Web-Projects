@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(132, 235, 235);
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 8%;
+    background-color: rgb(207, 19, 50);
+    color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    border: solid 2px white;
+}
+
+table,td{
+    background-color: black;
+    border: solid 3px black;
+    text-align: center;
+}
+td{
+    background-color: rgb(207, 19, 50);
+    border-radius: 25px;
+}
+table{
+    border-radius: 25px;
+}
+
+.clock{
+    font-size: 100px;
+    padding: 40px;
+    border-radius: 100px;
+}
+
+#center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colon{
+    border-radius: 0;
+    font-size: 100px;
+}
+
+button{
+    width: 100px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(207, 19, 50);
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    border-color: white;
+}
+
+button:hover{
+    color: rgb(207, 19, 50);
+    background-color: #fff;
+    border-color: rgb(207, 19, 50);
+}
+
+button:focus{
+    outline: none;
+}
